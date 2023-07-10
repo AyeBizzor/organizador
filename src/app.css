@@ -1,0 +1,23 @@
+div{
+    display: block;
+    width: 250px;
+    min-width: 210px;
+
+}
+
+.titulos-app{
+    font-size: 15px;
+    color: #282936;
+    margin: 0;
+    width: 35vw;
+}
+
+.leyendas-app{
+    font-size: 10px;
+    width:max-content;
+    color: #282936
+     }
+     
+.titulo-calendario{
+    background-color: #282936;
+}
