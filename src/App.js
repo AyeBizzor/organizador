@@ -42,7 +42,7 @@ function App() {
       completed: false
     })
     // Tengo que guardar el objeto en el localstorage donde se va convertir a objeto
-  /*   saveStorage(task) */
+     saveStorage(task) 
     // Vaciar el formulario al poner "Guardar"
     e.target.reset(); 
     //tengo que actualizar el setlistadostate para que me aparezca automaticamente en el listado sin tener que refrescar la pantalla 

@@ -14,7 +14,7 @@ export const TaskList = ({ listadoState, setListadoState, taskState, setTaskStat
     console.log(currentTask);
     if (currentTask === null) {
       setListadoState([]); // Establece el estado como un array vacío
-      console.log('No está guardando el pendiente de forma correcta o está vacío')
+      console.log('No está guardando el pendiente de forma correcta')
     } else {
       setListadoState(currentTask);
     }
