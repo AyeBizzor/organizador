@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Francois+One&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,1;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine:wght@400;700&family=Francois+One&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,1;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine:wght@400;700&family=Francois+One&family=Merriweather:ital,wght@0,300;1,400;1,900&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,1;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Francois+One&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,100&display=swap');
+
+
+
+.completed {
+    text-decoration: line-through;
+    color: #535259;
+    font-weight: 1;
+  }
+
+  .all-card-task{
+    font-family: Merriweather;
+   /*  background-color:#cdcada; */
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /*  justify-content: center;
+    align-items: center; */
+    border-radius: 15px;
+    gap:15px;
+    max-width: 1400px;
+    margin: 0px; /* Ajusta el valor del margen según tus preferencias */
+    padding: 5px; 
+   
+  }
+
+  .card-task {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 10px;
+    width: 600px;
+    /* background-color: aqua; */
+    padding: 17px;
+    border-radius: 2px;
+    background-color: #b5b2c0;
+    margin: 5px;
+    /* background: linear-gradient(155deg, rgb(209, 207, 219), #bdbbc6);
+    box-shadow: 10px 10px 10px #b1afb7, -10px -10px 10px #ffffff; */
+  }
+  
+  /* .card-task:hover {
+transform: scale(1.02);
+  } */
+
+  .checkbox-container{
+      display: flex;
+      margin: 0px;
+      border: 1px solid black;
+      width: 20px;
+      height: 20px;
+      align-items: center; /* Centra verticalmente */
+      justify-content: center; /* Centra horizontalmente */
+   }
+
+  input[type="checkbox"] {
+    width: 10px;
+  
+  }
+
+  /* .card-task-detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    overflow: auto;
+    max-height: 100px;
+    scrollbar-width: none;
+    font-size: 7px;
+    border: 1px solid black;
+  }
+
+  .pendiente-container, .plazo{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    background-color: beige;
+  }
+ */
+  .title-card-task {
+    font-family: Bebas Neue;
+    font-weight: 400;
+    margin: 0px;
+   /*  align-items: center; */
+    display: flex;
+   /*  align-items: center;
+    justify-content: space-around; */
+  }
+
+  .label-task{
+    width: 250px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #a59fbb;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    line-height: 2px; /* Ajusta el valor de line-height según tus preferencias */
+    padding: 0 10px;
+    flex-basis: 100%;
+  }
+
+  .label-task:hover{
+    transform: scale(1.02);
+  }
+
+  .detalle-plazos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: 100px;
+    width: 600px;
+    scrollbar-width: none;
+    font-size: 7px;
+    padding: 0 10px; /* Ajusta el valor del padding según tus preferencias */
+    border: 1px solid black;
+  }
+
+  .plazo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%; /* Ocupa todo el ancho de la línea */
+    font-weight: 600;
+  }

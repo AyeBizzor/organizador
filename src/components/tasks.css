@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Francois+One&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine:wght@400;700&family=Francois+One&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Prata&family=Ysabeau+Infant:ital,wght@0,400;0,700;0,800;1,1;1,100&display=swap');
+
+
+.div-form{
+    font-family: Ysabeau Infant ;
+    font-weight: 400;
+    background-color: #b7b2ce;
+    display: flex;
+    flex-direction: column;
+   /*  justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    gap:0px;
+    max-width: 1300px;
+    margin: 5px; /* Ajusta el valor del margen según tus preferencias */
+    padding: 20px; 
+    border-radius: 5px;
+    
+}
+
+input[type='submit']{
+    font-weight: 700;
+    width: 180px;
+    height: 20px;
+}
+
+
+input, textarea{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 3px;
+    font-size: 8px;
+    width: 250px;
+    max-width: 250px;
+    border: 1px solid rgb(141, 136, 136);
+}
+
+textarea{
+    resize: none;
+    
+}
+
+input{
+    height: 15px;
+}
+
+.titulos-app-taskform{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    
+    margin: 0 auto;
+   
+}
+
+.desde{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    margin:7px;
+    
+}
+
+.hasta{
+    display: flex;
+    flex-direction: row;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    margin: 7px;  
+   
+
+}
+
+.add-task{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 200px;
+    height: 18px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    background-color: #ffffff;
+    
+
+}
+.add-task:hover{
+    transform: scale(1.03);
+}
+
+.add-task:active{
+    background-color: rgb(241, 240, 238);
+}
+
+.boton-add-task{
+    display: flex;
+    
+}
+
+.titulos-app-form{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    align-items: unset;
+    justify-content: unset;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+
+}
+
+.plazos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.desde-hasta{
+    display: flex;
+    align-items: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 550px;
+}
+
+input[type='datetime-local']{
+    width: 150px;
+}
+
+span{
+    color: black;
+    
+    font-size: 9px;
+    vertical-align: middle;
+    margin: 0px;
+}
